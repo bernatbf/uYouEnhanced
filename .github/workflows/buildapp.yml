@@ -8,7 +8,7 @@ on:
     inputs:
       sdk_version:
         description: "iOS SDK Version"
-        default: "26.0"
+        default: "18.6"
         required: true
         type: string
       uyou_version:
@@ -38,12 +38,12 @@ on:
         type: string
       upload_artifact:
         description: "Upload IPA as artifact"
-        default: false
+        default: true
         required: false
         type: boolean
       create_release:
         description: "Create a draft release"
-        default: true
+        default: false
         required: false
         type: boolean
   
