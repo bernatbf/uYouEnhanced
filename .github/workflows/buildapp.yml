@@ -18,7 +18,7 @@ on:
         type: string
       decrypted_youtube_url:
         description: "Direct URL of the decrypted YouTube IPA"
-        default: ""
+        default: "https://cloud.fbalfer.casa/public.php/dav/files/rY8k846DnrCBQSP"
         required: true
         type: string
       bundle_id:
